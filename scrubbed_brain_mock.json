@@ -1,0 +1,19 @@
+{
+    "PythonStandards": {
+        "entry": "We use PEP8 and type hints everywhere. Python code must follow PEP8 strictly.",
+        "timestamp": "2024-10-01"
+    },
+    "API_Protocol": {
+        "entry": "[SYNTHESIZED]: Use gRPC for internal communications, but default to REST for external API gateways.",
+        "timestamp": "2024-10-01",
+        "note": "Resolved conflict between Jan and Aug entries"
+    },
+    "DatabaseSchemaRules_V2": {
+        "entry": "Always use UUIDv4 for all database primary keys.",
+        "timestamp": "2024-10-01"
+    },
+    "GlobalGitStrategy": {
+        "entry": "Git rebase is strictly preferred over merge commits for this repository.",
+        "timestamp": "2024-01-01"
+    }
+}

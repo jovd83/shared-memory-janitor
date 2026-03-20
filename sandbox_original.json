@@ -1,0 +1,38 @@
+{
+  "PythonStandards": {
+    "entry": "We use PEP8 and type hints everywhere.",
+    "timestamp": "2024-01-01"
+  },
+  "PythonConventions": {
+    "entry": "Make sure to follow PEP8 for all python code.",
+    "timestamp": "2024-02-15"
+  },
+  "TempProjectStatus": {
+    "entry": "The staging server for Repo X is currently down due to DB scaling.",
+    "timestamp": "2024-08-01",
+    "project_local": true
+  },
+  "API_Protocol": [
+    {
+      "entry": "All microservices must use REST.",
+      "timestamp": "2024-01-15"
+    },
+    {
+      "entry": "Always prioritize gRPC for internal communications.",
+      "timestamp": "2024-08-01"
+    }
+  ],
+  "DatabaseSchemaRules_Task123": {
+    "entry": "Use UUIDs for primary keys."
+  },
+  "DatabaseSchemaRules_Task124": {
+    "entry": "Primary keys should be UUID v4 everywhere."
+  },
+  "DatabaseSchemaRules_Task130": {
+    "entry": "When creating tables, UUIDs should be the default ID type."
+  },
+  "GlobalGitStrategy": {
+    "entry": "Git rebase is strictly preferred over merge commits for this repository.",
+    "timestamp": "2024-01-01"
+  }
+}
