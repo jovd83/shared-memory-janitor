@@ -1,6 +1,10 @@
 ---
 name: shared-memory-janitor
 description: A specialized agent skill for consolidating, optimizing, and cleaning the global agent shared memory.
+metadata:
+  version: "1.1.0"
+  dispatcher-layer: information
+  dispatcher-lifecycle: active
 ---
 
 # Shared Memory Janitor Skill
